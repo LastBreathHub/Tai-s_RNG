@@ -1,0 +1,179 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Last Breath Hub", "Default")
+
+local tab = DrRayLibrary.newTab("Auras", "ImageIdHere")
+
+tab.newButton("CORRUPTED", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.CORRUPTED
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Inferno", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Inferno
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("GLITCH", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.GLITCH
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Jolly", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Jolly
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Legendary", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Legendary
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Mathematique", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Mathematique
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Heartstruck", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Heartstruck
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Mutations", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Mutations
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("OVERDUE", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.OVERDUE
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("PERTURBATION", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.PERTURBATION
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Rainfall", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Rainfall
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("SantasSpark", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.SantasSpark
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Satan", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Satan
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Tai", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Tai
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Taxi", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Taxi
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Tornado", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Tornado
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("GrandReaper", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.GrandReaper
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Gift", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Gift
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("DIGITALIZED", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.DIGITALIZED
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Dream", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Dream
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("FIGHT", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.FIGHT
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Epic", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Epic
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Festive", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Festive
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Firework", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Firework
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Chrono", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Chrono
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Chained", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Chained
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Code", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Code
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Blackhole", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Blackhole
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+local tab = DrRayLibrary.newTab("Credits", "ImageIdHere")
+
+tab.newButton("M1sty", "Owner of Last Breath Hub", function()
+
+end)
