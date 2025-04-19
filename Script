@@ -1,6 +1,6 @@
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
-local window = DrRayLibrary:Load("Last Breath Hub", "Default")
+local window = DrRayLibrary:Load("Last Breath Hub | Tai's RNG", "Default")
 
 local tab = DrRayLibrary.newTab("Auras", "ImageIdHere")
 
@@ -79,12 +79,6 @@ end)
 tab.newButton("Satan", "Click Me!", function()
 
 local getAura = game:GetService("ReplicatedStorage").Auras.Satan
-game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
-end)
-
-tab.newButton("Tai", "Click Me!", function()
-
-local getAura = game:GetService("ReplicatedStorage").Auras.Tai
 game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
 end)
 
@@ -169,6 +163,38 @@ end)
 tab.newButton("Blackhole", "Click Me!", function()
 
 local getAura = game:GetService("ReplicatedStorage").Auras.Blackhole
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("Cupid", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Cupid
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("KALEIDOSCOPIC", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.KALEIDOSCOPIC
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("ONESTAR", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.ONESTAR
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+local tab = DrRayLibrary.newTab("Dev Exclusive | Risky", "ImageIdHere")
+
+tab.newButton("Tai", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.Tai
+game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
+end)
+
+tab.newButton("CupidTwin", "Click Me!", function()
+
+local getAura = game:GetService("ReplicatedStorage").Auras.CupidTwin
 game:GetService("ReplicatedStorage").Remotes.AuraEquip:FireServer(getAura)
 end)
 
